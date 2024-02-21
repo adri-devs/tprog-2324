@@ -1,0 +1,3 @@
+C:/Users/usuario/universidad/2324/2do Cuatri/tprog-2324/problema/cmake-build-debug/CMakeFiles/problema.dir
+C:/Users/usuario/universidad/2324/2do Cuatri/tprog-2324/problema/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/usuario/universidad/2324/2do Cuatri/tprog-2324/problema/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+# ninja log v5
+1	396	7285717896837070	CMakeFiles/problema.dir/main.cpp.obj	55760c646ced0483
+7	399	7285717896847098	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+4	400	7285718272374458	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+8	405	7285718272437787	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+3	419	7285718454380949	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+9	422	7285718454411000	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+4	424	7285718499916855	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+5	395	7285718629073561	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+4	441	7285718715788640	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+4	391	7285725602329754	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+9	397	7285725602379778	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+8	412	7285727628288818	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+3	413	7285727628288818	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+4	410	7285727701892249	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+9	413	7285727701922302	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+9	452	7285729374007028	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+4	455	7285729374056978	CMakeFiles/problema.dir/sesion1/cuenta.cc.obj	816c2127d22212e
+4	387	7285731613249633	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8
+4	391	7285731668021140	CMakeFiles/problema.dir/sesion1/main.cc.obj	6df8d7dab1db3cb8

@@ -1,8 +1,31 @@
-//
-// Created by usuario on 02/02/2024.
-//
+#pragma once
 
-#ifndef PROBLEMA_CUENTA_H
-#define PROBLEMA_CUENTA_H
+class Cuenta {
+    public: // No es necesario agrupar todo en el mismo public o private
+        enum TipoCuenta {
+        CORRIENTE,
+        AHORRO,
+        PLAZO_FIJO,
+        HIPOTECA,
+        PRESTAMO,
+        NOMINA,
+        DEBITO,
+        CREDITO
+    };
+    private:
+        // Comun
+        TipoCuenta tipo;
+        double Capital;
+        double interes;
+        // Solo plazo fijo
+        int plazo;
 
-#endif //PROBLEMA_CUENTA_H
+    public:
+        Cuenta(TipoCuenta t, double Ci, double i, int p=0);
+        Cuenta(double Ci, double i);
+        Cuenta(double Ci, double i, int p);
+        // no podríamos poner Cuenta(double Ci, double i, int p=0)
+        // porque ya existe otro constructor con esos parámetros (el de arriba)
+        double valor(int t);
+        double tae(int t);
+};
