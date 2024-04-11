@@ -7,10 +7,8 @@
 #ifndef PRACTICA4_816624_C_NODO_H
 #define PRACTICA4_816624_C_NODO_H
 
-
-class nodo {
+class Nodo {
 
 };
-
 
 #endif //PRACTICA4_816624_C_NODO_H
