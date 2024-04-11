@@ -5,9 +5,10 @@
 */
 #ifndef PRACTICA4_816624_C_DIRECTORIO_H
 #define PRACTICA4_816624_C_DIRECTORIO_H
+#pragma once
 
 
-class directorio {
+class Directorio {
 
 };
 

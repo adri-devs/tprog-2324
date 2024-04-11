@@ -6,6 +6,7 @@
 
 #ifndef PRACTICA4_816624_C_NODO_H
 #define PRACTICA4_816624_C_NODO_H
+#pragma once
 
 #include <string>
 using namespace std;

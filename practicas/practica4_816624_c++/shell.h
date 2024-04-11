@@ -6,6 +6,7 @@
 
 #ifndef PRACTICA4_816624_C_SHELL_H
 #define PRACTICA4_816624_C_SHELL_H
+#pragma once
 
 class Shell {
 

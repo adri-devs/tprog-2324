@@ -6,9 +6,10 @@
 
 #ifndef PRACTICA4_816624_C_FICHERO_H
 #define PRACTICA4_816624_C_FICHERO_H
+#pragma once
 
 
-class fichero {
+class Fichero {
 
 };
 

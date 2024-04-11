@@ -6,11 +6,12 @@
 
 #ifndef PRACTICA4_816624_C_ENLACE_H
 #define PRACTICA4_816624_C_ENLACE_H
+#pragma once
 
 #include <string>
 #include "nodo.h"
 
-class enlace {
+class Enlace {
 
 };
 
