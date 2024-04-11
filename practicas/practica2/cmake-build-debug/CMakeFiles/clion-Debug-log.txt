@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\usuario\universidad\2324\2do Cuatri\tprog-2324\practicas\practica2 Select CMakeLists.txt
