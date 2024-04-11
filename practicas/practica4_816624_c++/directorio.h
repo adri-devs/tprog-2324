@@ -8,7 +8,7 @@
 #pragma once
 
 #include "nodo.h"
-#include "memory"
+#include <memory>
 #include <list>
 
 // Clase Directorio, hereda de Nodo
