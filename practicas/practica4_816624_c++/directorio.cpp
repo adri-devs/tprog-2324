@@ -5,3 +5,17 @@
 */
 
 #include "directorio.h"
+
+Directorio::Directorio() {
+    this->nombre = "";
+    this->padre = nullptr;
+    this->hijos = new std::vector<Directorio*>();
+}
+
+int Directorio::getTamano() const {
+    int tamano = 0;
+    for (Directorio* hijo : *hijos) {
+        tamano += hijo->getTamano();
+    }
+    return tamano;
+}

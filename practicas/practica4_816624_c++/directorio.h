@@ -32,6 +32,7 @@ public:
     list<shared_ptr<Nodo>> getDirEls() const;
     string showDir() const;
     string calcDirSize() const;
+    bool exists(string &nombre) const;
 }
 
 #endif //PRACTICA4_816624_C_DIRECTORIO_H
