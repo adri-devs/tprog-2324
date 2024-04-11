@@ -20,10 +20,18 @@ private:
 public:
     // Constructor de un directorio
     Directorio(const string &nombre) : Nodo(nombre) {}
+
     // Obtiene el tamaño de un directorio (sobreescribe la función heredada de Nodo)
     int getTamano() const override;
-    void addNodo(shared_ptr<Nodo> nodo);
-    void deleteNodo(const string &nombre);
 
+    void addNodo(shared_ptr<Nodo> nodo);
+
+    void deleteNodo(shared_ptr<Nodo> nodo); // Quizá sea: void deleteNodo(string &nombre);
+
+    // Mostrar contenido del directorio
+    list<shared_ptr<Nodo>> getDirEls() const;
+    string showDir() const;
+    string calcDirSize() const;
+}
 
 #endif //PRACTICA4_816624_C_DIRECTORIO_H
