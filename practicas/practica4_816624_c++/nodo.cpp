@@ -5,3 +5,11 @@
 */
 
 #include "nodo.h"
+
+int Nodo::obtenerTamano() const {
+    return 0;  // Devuelve el tamaño del nodo
+}
+
+std::string Nodo::obtenerNombre() const {
+    return nombre;  // Devuelve el nombre del nodo
+}
