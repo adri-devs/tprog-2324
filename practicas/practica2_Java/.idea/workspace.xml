@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3292a966-aa46-42ab-a7c3-53be415ef93a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/practica1_816624_845154.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class-op/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class-op/main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class-op/rational.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class-op/rational.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class/main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class/rational.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-class/rational.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-tad/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-tad/main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-tad/rational.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1_816624/rational-tad/rational.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/.idea/practica2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2_C/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/pract2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract2/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2cvSdE2ZkH7Sq2aiRCiTbva46wE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/zeonp/universidad/2324/2do Cuatri/tprog-2324/practicas/practica2_816624_845154/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3292a966-aa46-42ab-a7c3-53be415ef93a" name="Changes" comment="" />
+      <created>1708990644331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708990644331</updated>
+      <workItem from="1708990645447" duration="29000" />
+      <workItem from="1708990688063" duration="23000" />
+      <workItem from="1708990714096" duration="31000" />
+      <workItem from="1708990757216" duration="641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
