@@ -7,10 +7,23 @@
 #define PRACTICA4_816624_C_DIRECTORIO_H
 #pragma once
 
+#include "nodo.h"
+#include "memory"
+#include <list>
 
-class Directorio {
-
-};
+// Clase Directorio, hereda de Nodo
+class Directorio : public Nodo {
+private:
+    // Atributo que almacena la lista de nodos que contiene el directorio
+    // Sería list<Nodo*> nodos, pero tenemos que usar magic pointers.
+    list<shared_ptr<Nodo>> nodos;
+public:
+    // Constructor de un directorio
+    Directorio(const string &nombre) : Nodo(nombre) {}
+    // Obtiene el tamaño de un directorio (sobreescribe la función heredada de Nodo)
+    int getTamano() const override;
+    void addNodo(shared_ptr<Nodo> nodo);
+    void deleteNodo(const string &nombre);
 
 
 #endif //PRACTICA4_816624_C_DIRECTORIO_H

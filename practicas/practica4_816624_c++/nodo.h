@@ -17,8 +17,8 @@ class Nodo {
     public:
         // Constructor
         Nodo(const string &nombre) : nombre(nombre) {}
-        virtual int obtenerTamano() const;
-        string obtenerNombre() const;
+        virtual int getTamano() const;
+        string getNombre() const;
 };
 
 #endif //PRACTICA4_816624_C_NODO_H
