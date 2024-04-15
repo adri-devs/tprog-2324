@@ -8,8 +8,45 @@
 #define PRACTICA4_816624_C_SHELL_H
 #pragma once
 
-class Shell {
+#include <string>
+#include <iostream>
+#include <sstream>
+#include <list>
+#include <memory>
+#include <cstring>
+#include "nodo.h"
+#include "fichero.h"
+#include "directorio.h"
+#include "enlace.h"
+#include "excepciones.h"
 
+using namespace std;
+
+class Shell {
+    protected:
+        Directorio raiz;
+        list<shared_ptr<Directorio>> ruta;
+
+    public:
+        Shell();
+
+        string pwd();
+
+        string ls();
+
+        string du();
+
+        void vi(string name, int size);
+
+        void mkdir(string name);
+
+        void cd(string path);
+
+        void ln(string path, string name);
+
+        int stat(string path);
+
+        void rm(string path);
 };
 
 #endif //PRACTICA4_816624_C_SHELL_H

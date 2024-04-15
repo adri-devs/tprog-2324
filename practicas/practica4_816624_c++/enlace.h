@@ -8,12 +8,22 @@
 #define PRACTICA4_816624_C_ENLACE_H
 #pragma once
 
-#include <string>
 #include "nodo.h"
+#include <string>
+#include <list>
+#include <memory>
 
-class Enlace {
+using namespace std;
 
+class Enlace : public Nodo {
+    protected:
+        shared_ptr<Nodo> enlace;
+    public:
+        Enlace(const string& _nombre, shared_ptr<Nodo> _enlace);
+
+        virtual int getTamanyo() const;
+
+        virtual shared_ptr<Nodo> getEnlace() const;
 };
-
 
 #endif //PRACTICA4_816624_C_ENLACE_H

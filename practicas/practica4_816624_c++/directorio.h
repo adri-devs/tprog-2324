@@ -8,31 +8,31 @@
 #pragma once
 
 #include "nodo.h"
-#include <memory>
+#include <string>
 #include <list>
+#include <memory>
 
-// Clase Directorio, hereda de Nodo
+using namespace std;
+
 class Directorio : public Nodo {
-private:
-    // Atributo que almacena la lista de nodos que contiene el directorio
-    // Sería list<Nodo*> nodos, pero tenemos que usar magic pointers.
-    list<shared_ptr<Nodo>> nodos;
-public:
-    // Constructor de un directorio
-    Directorio(const string &nombre) : Nodo(nombre) {}
+    protected:
+        list<shared_ptr<Nodo>> elems;
+    public:
+        Directorio(const string& _nombre);
 
-    // Obtiene el tamaño de un directorio (sobreescribe la función heredada de Nodo)
-    int getTamano() const override;
+        virtual int getTamanyo() const;
 
-    void addNodo(shared_ptr<Nodo> nodo);
+        void guardar(shared_ptr<Nodo> elem);
 
-    void deleteNodo(shared_ptr<Nodo> nodo); // Quizá sea: void deleteNodo(string &nombre);
+        void eliminar(shared_ptr<Nodo> elem);
 
-    // Mostrar contenido del directorio
-    list<shared_ptr<Nodo>> getDirEls() const;
-    string showDir() const;
-    string calcDirSize() const;
-    bool exists(string &nombre) const;
-}
+        list<shared_ptr<Nodo>> contenidoPtr() const;
+
+        string contenido();
+
+        string contenidoTamanyo();
+
+        shared_ptr<Nodo> existe(const string& nombre);
+};
 
 #endif //PRACTICA4_816624_C_DIRECTORIO_H

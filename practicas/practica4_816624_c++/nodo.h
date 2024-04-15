@@ -9,16 +9,18 @@
 #pragma once
 
 #include <string>
+
 using namespace std;
 
 class Nodo {
     protected:
         string nombre;
     public:
-        // Constructor
-        Nodo(const string &nombre) : nombre(nombre) {}
-        virtual int getTamano() const;
+        Nodo(string _nombre);
+
         string getNombre() const;
+
+        virtual int getTamanyo() const = 0;
 };
 
 #endif //PRACTICA4_816624_C_NODO_H

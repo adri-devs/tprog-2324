@@ -1,25 +1,28 @@
 PROG:=main
-SRCS:=main.cc
+SRCS:=main.cc shell.cc nodo.cc fichero.cc directorio.cc enlace.cc
 
-CXX:=g++ -std=c++20 -Wall -Wfatal-errors
+CXX:=g++ -Wall -std=c++11
 
 OBJS:=$(SRCS:.cc=.o)
 DEPS:=$(SRCS:.cc=.d)
 
-all: main
+all: $(PROG)
 
-main: $(OBJS)
-	$(CXX) -MMD -o $@ $^
+$(PROG): $(OBJS)
+	$(CXX) -o $@ $^
 
-%.o: %.cc
-	$(CXX) -MMD -c $<
+.cc.o:
+	$(CXX) -c -MMD $<
 
-.PHONY: edit
+.PHONY: edit go
+
+go: $(PROG)
+	$(PROG)
 
 edit:
 	@geany -s -i $(SRCS) *.h &
 
 clean:
-	@rm -f $(PROG) *.o *.d core
+	@rm -f $(PROG) $(OBJS) $(DEPS) *.gch core tags
 
 -include $(DEPS)
