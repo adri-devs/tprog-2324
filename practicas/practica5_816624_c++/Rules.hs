@@ -37,4 +37,4 @@ hilbert x = [x]
 gosper :: Char -> String
 gosper 'F' = "F-G--G+F++FF+G-"
 gosper 'G' = "+F-GG--G-F++F+G"
-gosper x = [x]a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9902542
+gosper x = [x]
